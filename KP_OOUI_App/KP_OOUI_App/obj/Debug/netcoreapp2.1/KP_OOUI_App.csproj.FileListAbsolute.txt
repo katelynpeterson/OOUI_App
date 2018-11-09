@@ -1,0 +1,7 @@
+C:\Users\katel\source\repos\KP_OOUI_App\KP_OOUI_App\obj\Debug\netcoreapp2.1\KP_OOUI_App.csprojAssemblyReference.cache
+C:\Users\katel\source\repos\KP_OOUI_App\KP_OOUI_App\obj\Debug\netcoreapp2.1\KP_OOUI_App.csproj.CoreCompileInputs.cache
+C:\Users\katel\source\repos\KP_OOUI_App\KP_OOUI_App\obj\Debug\netcoreapp2.1\KP_OOUI_App.Page1.xaml.g.cs
+C:\Users\katel\source\repos\KP_OOUI_App\KP_OOUI_App\obj\Debug\netcoreapp2.1\KP_OOUI_App.AssemblyInfoInputs.cache
+C:\Users\katel\source\repos\KP_OOUI_App\KP_OOUI_App\obj\Debug\netcoreapp2.1\KP_OOUI_App.AssemblyInfo.cs
+C:\Users\katel\source\repos\KP_OOUI_App\KP_OOUI_App\obj\Debug\netcoreapp2.1\KP_OOUI_App.dll
+C:\Users\katel\source\repos\KP_OOUI_App\KP_OOUI_App\obj\Debug\netcoreapp2.1\KP_OOUI_App.pdb

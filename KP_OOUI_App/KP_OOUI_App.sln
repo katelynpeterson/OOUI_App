@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KP_OOUI_App", "KP_OOUI_App\KP_OOUI_App.csproj", "{EF32B268-BBB8-4FFE-88A5-183C99FDA0CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF32B268-BBB8-4FFE-88A5-183C99FDA0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF32B268-BBB8-4FFE-88A5-183C99FDA0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF32B268-BBB8-4FFE-88A5-183C99FDA0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF32B268-BBB8-4FFE-88A5-183C99FDA0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BED6627-883F-4AC4-B053-26E23AA16A44}
+	EndGlobalSection
+EndGlobal

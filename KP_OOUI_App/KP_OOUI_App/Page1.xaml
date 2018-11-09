@@ -1,0 +1,59 @@
+﻿<?xml version = "1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:KP_OOUI_App"
+             x:Class="KP_OOUI_App.Page1">
+    <ContentPage.Resources>
+        <local:ViewModel x:Key="ProjectInfo" />
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="My Projects"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height=".25*" />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Label Grid.ColumnSpan="2"
+                    HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Text="Select a Project" />
+                <ListView Grid.Row="1"
+                          Grid.ColumnSpan="2"
+                          ItemsSource="{Binding Source={StaticResource ProjectInfo}, Path=Project}"
+                          x:Name="listViewProjects"
+                          SelectedItem="0">
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Name}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <ListView Grid.Row="2"
+                          Grid.ColumnSpan="2"
+                          x:Name="listViewInfo"
+                          SelectedItem="{Binding Source={x:Reference listViewProjects}, Path=SelectedItem.Info}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell>
+                                <TextCell.Text Header="Date"
+                                               DisplayMemberBinding="{Binding Date}"
+                                               Width="auto" />
+                            </TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
